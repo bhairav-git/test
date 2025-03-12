@@ -6,20 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-    private final AccountsService accountsService;
-	private final Account testModel;
-
-    @GetMapping("/hello")
-    public String getHelloWorld() {
-        return "Hello, World!";
-    }
-
-
-    
+    private final AccountsService testService;
+    private final Account testModel;
 
 	@Autowired
-	public AccountsController(AccountsService accountsService) {
-		this.accountsService = accountsService;
+	public HelloWorldController(AccountsService accountsService) {
+		this.testService = testService;
 	}
 
 	
