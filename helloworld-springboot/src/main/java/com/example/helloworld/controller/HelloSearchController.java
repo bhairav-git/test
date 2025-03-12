@@ -1,4 +1,4 @@
-package com.db.awmd.challenge.web;
+package com.example.helloworld.controller;
 
 import javax.validation.Valid;
 
