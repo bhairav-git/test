@@ -17,6 +17,6 @@ public class HelloWorldController {
 	
 	public Account getLatestInfo()
 	{
-		this.accountsService.createAccount(testModel);
+		this.testService.createAccount(testModel);
 	}
 }
